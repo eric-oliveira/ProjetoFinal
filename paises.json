@@ -1,0 +1,941 @@
+[{
+"sigla": "AED",
+"pais": "Emirados Árabes Unidos"
+},
+{
+"sigla": "AFN",
+"pais": "Afeganistão"
+},
+{
+"sigla": "ALL",
+"pais": "Albânia"
+},
+{
+"sigla": "AMD",
+"pais": "Armênia"
+},
+{
+"sigla": "AOA",
+"pais": "Angola"
+},
+{
+"sigla": "ARS",
+"pais": "Argentina"
+},
+{
+"sigla": "AUD",
+"pais": "Austrália"
+},
+{
+"sigla": "AUD",
+"pais": "Kiribati"
+},
+{
+"sigla": "AUD",
+"pais": "Coconut Islands"
+},
+{
+"sigla": "AUD",
+"pais": "Nauru"
+},
+{
+"sigla": "AUD",
+"pais": "Tuvalu"
+},
+{
+"sigla": "AWG",
+"pais": "Aruba"
+},
+{
+"sigla": "AZN",
+"pais": "Azerbaijão"
+},
+{
+"sigla": "BAM",
+"pais": "Bósnia e Herzegovina"
+},
+{
+"sigla": "BBD",
+"pais": "Barbados"
+},
+{
+"sigla": "BDT",
+"pais": "Bangladesh"
+},
+{
+"sigla": "BGN",
+"pais": "Bulgária"
+},
+{
+"sigla": "BHD",
+"pais": "Bahrain"
+},
+{
+"sigla": "BIF",
+"pais": "Burundi"
+},
+{
+"sigla": "BMD",
+"pais": "Bermudas"
+},
+{
+"sigla": "BND",
+"pais": "Brunei"
+},
+{
+"sigla": "BND",
+"pais": "Cingapura"
+},
+{
+"sigla": "BOB",
+"pais": "Bolívia"
+},
+{
+"sigla": "BRL",
+"pais": "Brasil"
+},
+{
+"sigla": "BSD",
+"pais": "Bahamas"
+},
+{
+"sigla": "BTN",
+"pais": "Butão"
+},
+{
+"sigla": "BWP",
+"pais": "Botswana"
+},
+{
+"sigla": "BYR",
+"pais": "Bielorrússia"
+},
+{
+"sigla": "BZD",
+"pais": "Belize"
+},
+{
+"sigla": "CAD",
+"pais": "Canadá"
+},
+{
+"sigla": "CDF",
+"pais": "Congo (Kinshasa)"
+},
+{
+"sigla": "CHF",
+"pais": "Lichtenstein"
+},
+{
+"sigla": "CHF",
+"pais": "Suiça"
+},
+{
+"sigla": "CLP",
+"pais": "Chile"
+},
+{
+"sigla": "CNY",
+"pais": "China"
+},
+{
+"sigla": "COP",
+"pais": "Colômbia"
+},
+{
+"sigla": "CRC",
+"pais": "Costa Rica"
+},
+{
+"sigla": "CUP",
+"pais": "Cuba"
+},
+{
+"sigla": "CVE",
+"pais": "Cabo Verde"
+},
+{
+"sigla": "CZK",
+"pais": "República Tcheca"
+},
+{
+"sigla": "DJF",
+"pais": "Djibouti"
+},
+{
+"sigla": "DKK",
+"pais": "Dinamarca"
+},
+{
+"sigla": "DOP",
+"pais": "República Dominicana"
+},
+{
+"sigla": "DZD",
+"pais": "Argélia"
+},
+{
+"sigla": "EGP",
+"pais": "Egito"
+},
+{
+"sigla": "ERN",
+"pais": "Eritreia"
+},
+{
+"sigla": "ETB",
+"pais": "Etiópia"
+},
+{
+"sigla": "EUR",
+"pais": "Akrotiri e Dhekelia"
+},
+{
+"sigla": "EUR",
+"pais": "Andorra"
+},
+{
+"sigla": "EUR",
+"pais": "Áustria"
+},
+{
+"sigla": "EUR",
+"pais": "Bélgica"
+},
+{
+"sigla": "EUR",
+"pais": "Chipre"
+},
+{
+"sigla": "EUR",
+"pais": "Estônia"
+},
+{
+"sigla": "EUR",
+"pais": "Finlândia"
+},
+{
+"sigla": "EUR",
+"pais": "França"
+},
+{
+"sigla": "EUR",
+"pais": "Alemanha"
+},
+{
+"sigla": "EUR",
+"pais": "Grécia"
+},
+{
+"sigla": "EUR",
+"pais": "Irlanda"
+},
+{
+"sigla": "EUR",
+"pais": "Itália"
+},
+{
+"sigla": "EUR",
+"pais": "Kosovo"
+},
+{
+"sigla": "EUR",
+"pais": "Latvia"
+},
+{
+"sigla": "EUR",
+"pais": "Lituânia"
+},
+{
+"sigla": "EUR",
+"pais": "Luxemburgo"
+},
+{
+"sigla": "EUR",
+"pais": "Malta"
+},
+{
+"sigla": "EUR",
+"pais": "Mônaco"
+},
+{
+"sigla": "EUR",
+"pais": "Montenegro"
+},
+{
+"sigla": "EUR",
+"pais": "Holanda"
+},
+{
+"sigla": "EUR",
+"pais": "Portugal"
+},
+{
+"sigla": "EUR",
+"pais": "San Marino"
+},
+{
+"sigla": "EUR",
+"pais": "Eslováquia"
+},
+{
+"sigla": "EUR",
+"pais": "Eslovenia"
+},
+{
+"sigla": "EUR",
+"pais": "Espanha"
+},
+{
+"sigla": "EUR",
+"pais": "Vaticano"
+},
+{
+"sigla": "FJD",
+"pais": "Fiji"
+},
+{
+"sigla": "FKP",
+"pais": "Ilhas Falkland"
+},
+{
+"sigla": "GBP",
+"pais": "Alderney"
+},
+{
+"sigla": "GBP",
+"pais": "Território Britânico do Oceano Índico"
+},
+{
+"sigla": "GBP",
+"pais": "Grã-Bretanha"
+},
+{
+"sigla": "GBP",
+"pais": "Isle of Maine"
+},
+{
+"sigla": "GEL",
+"pais": "Georgia"
+},
+{
+"sigla": "GEL",
+"pais": "Ossétia do Sul"
+},
+{
+"sigla": "GHS",
+"pais": "Gana"
+},
+{
+"sigla": "GIP",
+"pais": "Gibraltar"
+},
+{
+"sigla": "GMD",
+"pais": "Gâmbia"
+},
+{
+"sigla": "GNF",
+"pais": "Guiné"
+},
+{
+"sigla": "GTQ",
+"pais": "Guatemala"
+},
+{
+"sigla": "GYD",
+"pais": "Guiana"
+},
+{
+"sigla": "HKD",
+"pais": "Hong Kong"
+},
+{
+"sigla": "HNL",
+"pais": "Honduras"
+},
+{
+"sigla": "HRK",
+"pais": "Croácia"
+},
+{
+"sigla": "HTG",
+"pais": "Haiti"
+},
+{
+"sigla": "HUF",
+"pais": "Hungria"
+},
+{
+"sigla": "IDR",
+"pais": "Indonésia"
+},
+{
+"sigla": "ILS",
+"pais": "Israel"
+},
+{
+"sigla": "ILS",
+"pais": "Palestina"
+},
+{
+"sigla": "INR",
+"pais": "Butão"
+},
+{
+"sigla": "INR",
+"pais": "Índia"
+},
+{
+"sigla": "IQD",
+"pais": "Iraque"
+},
+{
+"sigla": "IRR",
+"pais": "Irã"
+},
+{
+"sigla": "ISK",
+"pais": "Islândia"
+},
+{
+"sigla": "JMD",
+"pais": "Jamaica"
+},
+{
+"sigla": "JOD",
+"pais": "Jordânia"
+},
+{
+"sigla": "JPY",
+"pais": "Japão"
+},
+{
+"sigla": "KES",
+"pais": "Quênia"
+},
+{
+"sigla": "KGS",
+"pais": "Quirguistão"
+},
+{
+"sigla": "KHR",
+"pais": "Camboja"
+},
+{
+"sigla": "KPW",
+"pais": "Coréia do Norte"
+},
+{
+"sigla": "KRW",
+"pais": "Coréia do Sul"
+},
+{
+"sigla": "KWD",
+"pais": "Kuwait"
+},
+{
+"sigla": "KYD",
+"pais": "Ilhas Cayman"
+},
+{
+"sigla": "KZT",
+"pais": "Cazaquistão"
+},
+{
+"sigla": "LAK",
+"pais": "Laos"
+},
+{
+"sigla": "LBP",
+"pais": "Líbano"
+},
+{
+"sigla": "LKR",
+"pais": "Sri Lanka"
+},
+{
+"sigla": "LRD",
+"pais": "Libéria"
+},
+{
+"sigla": "LSL",
+"pais": "Lesoto"
+},
+{
+"sigla": "LYD",
+"pais": "Líbia"
+},
+{
+"sigla": "MAD",
+"pais": "Marrocos"
+},
+{
+"sigla": "MDL",
+"pais": "Moldova"
+},
+{
+"sigla": "MGA",
+"pais": "Madagascar"
+},
+{
+"sigla": "MKD",
+"pais": "Macedônia"
+},
+{
+"sigla": "MMK",
+"pais": "Myanmar (Burma)"
+},
+{
+"sigla": "MNT",
+"pais": "Mongólia"
+},
+{
+"sigla": "MOP",
+"pais": "Macau"
+},
+{
+"sigla": "MRO",
+"pais": "Mauritânia"
+},
+{
+"sigla": "MUR",
+"pais": "República de Maurício"
+},
+{
+"sigla": "MVR",
+"pais": "Maldivas"
+},
+{
+"sigla": "MWK",
+"pais": "Malavi"
+},
+{
+"sigla": "MXN",
+"pais": "México"
+},
+{
+"sigla": "MYR",
+"pais": "Malásia"
+},
+{
+"sigla": "MZN",
+"pais": "Moçambique"
+},
+{
+"sigla": "NAD",
+"pais": "Namíbia"
+},
+{
+"sigla": "NGN",
+"pais": "Nigéria"
+},
+{
+"sigla": "NIO",
+"pais": "Nicarágua"
+},
+{
+"sigla": "NOK",
+"pais": "Noruega"
+},
+{
+"sigla": "NPR",
+"pais": "Nepal"
+},
+{
+"sigla": "NZD",
+"pais": "Ilhas Cook"
+},
+{
+"sigla": "NZD",
+"pais": "Nova Zelândia"
+},
+{
+"sigla": "NZD",
+"pais": "Niue"
+},
+{
+"sigla": "NZD",
+"pais": "Ilha Pitcairn"
+},
+{
+"sigla": "OMR",
+"pais": "Omã"
+},
+{
+"sigla": "PAB",
+"pais": "Panamá"
+},
+{
+"sigla": "PEN",
+"pais": "Peru"
+},
+{
+"sigla": "PGK",
+"pais": "Papua Nova Guiné"
+},
+{
+"sigla": "PHP",
+"pais": "Filipinas"
+},
+{
+"sigla": "PKR",
+"pais": "Paquistão"
+},
+{
+"sigla": "PLN",
+"pais": "Polônia"
+},
+{
+"sigla": "PYG",
+"pais": "Paraguai"
+},
+{
+"sigla": "QAR",
+"pais": "Catar"
+},
+{
+"sigla": "RON",
+"pais": "Romênia"
+},
+{
+"sigla": "RSD",
+"pais": "Kosovo"
+},
+{
+"sigla": "RSD",
+"pais": "Sérvia"
+},
+{
+"sigla": "RUB",
+"pais": "Rússia"
+},
+{
+"sigla": "RUB",
+"pais": "Ossétia do Sul"
+},
+{
+"sigla": "RWF",
+"pais": "Ruanda"
+},
+{
+"sigla": "SAR",
+"pais": "Arábia Saudita"
+},
+{
+"sigla": "SBD",
+"pais": "Ilhas Salomão"
+},
+{
+"sigla": "SCR",
+"pais": "Seicheles"
+},
+{
+"sigla": "SDG",
+"pais": "Sudão"
+},
+{
+"sigla": "SEK",
+"pais": "Suécia"
+},
+{
+"sigla": "SGD",
+"pais": "Brunei"
+},
+{
+"sigla": "SGD",
+"pais": "Cingapura"
+},
+{
+"sigla": "SHP",
+"pais": "Ascension Island"
+},
+{
+"sigla": "SHP",
+"pais": "Santa Helena"
+},
+{
+"sigla": "SHP",
+"pais": "Tristan da Cunha"
+},
+{
+"sigla": "SLL",
+"pais": "Serra Leoa"
+},
+{
+"sigla": "SOS",
+"pais": "Somália"
+},
+{
+"sigla": "SRD",
+"pais": "Suriname"
+},
+{
+"sigla": "STD",
+"pais": "São Tomé e Príncipe"
+},
+{
+"sigla": "SYP",
+"pais": "Síria"
+},
+{
+"sigla": "SZL",
+"pais": "Suazilândia"
+},
+{
+"sigla": "THB",
+"pais": "Tailândia"
+},
+{
+"sigla": "TJS",
+"pais": "Tajiquistão"
+},
+{
+"sigla": "TMT",
+"pais": "Turquemenistão"
+},
+{
+"sigla": "TND",
+"pais": "Tunísia"
+},
+{
+"sigla": "TOP",
+"pais": "Tonga"
+},
+{
+"sigla": "TRY",
+"pais": "Chipre do Norte"
+},
+{
+"sigla": "TRY",
+"pais": "Turquia"
+},
+{
+"sigla": "TTD",
+"pais": "Trinidad e Tobago"
+},
+{
+"sigla": "TWD",
+"pais": "Taiwan"
+},
+{
+"sigla": "TZS",
+"pais": "Tanzânia"
+},
+{
+"sigla": "UAH",
+"pais": "Ucrânia"
+},
+{
+"sigla": "UGX",
+"pais": "Uganda"
+},
+{
+"sigla": "USD",
+"pais": "Samoa Americana"
+},
+{
+"sigla": "USD",
+"pais": "Território Britânico do Oceano Índico"
+},
+{
+"sigla": "USD",
+"pais": "Ilhas Virgens Britânicas"
+},
+{
+"sigla": "USD",
+"pais": "Guam"
+},
+{
+"sigla": "USD",
+"pais": "Haiti"
+},
+{
+"sigla": "USD",
+"pais": "Marshall Islands"
+},
+{
+"sigla": "USD",
+"pais": "Micronésia"
+},
+{
+"sigla": "USD",
+"pais": "Ilhas Marianas do Norte"
+},
+{
+"sigla": "USD",
+"pais": "Ilhas Remotas do Pacífico"
+},
+{
+"sigla": "USD",
+"pais": "Palau"
+},
+{
+"sigla": "USD",
+"pais": "Panamá"
+},
+{
+"sigla": "USD",
+"pais": "Porto Rico"
+},
+{
+"sigla": "USD",
+"pais": "Ilhas Turcas e Caicos"
+},
+{
+"sigla": "USD",
+"pais": "Estados Unidos da América"
+},
+{
+"sigla": "USD",
+"pais": "Ilhas Virgens dos EE.UU."
+},
+{
+"sigla": "UYU",
+"pais": "Uruguai"
+},
+{
+"sigla": "UZS",
+"pais": "Uzbequistão"
+},
+{
+"sigla": "VEF",
+"pais": "Venezuela"
+},
+{
+"sigla": "VND",
+"pais": "Vietnã"
+},
+{
+"sigla": "VUV",
+"pais": "Vanuatu"
+},
+{
+"sigla": "WST",
+"pais": "Samoa"
+},
+{
+"sigla": "XAF",
+"pais": "Benin"
+},
+{
+"sigla": "XAF",
+"pais": "Burkina Faso"
+},
+{
+"sigla": "XAF",
+"pais": "Camarões"
+},
+{
+"sigla": "XAF",
+"pais": "República Central Africana"
+},
+{
+"sigla": "XAF",
+"pais": "Chade"
+},
+{
+"sigla": "XAF",
+"pais": "Congo (Brazzaville)"
+},
+{
+"sigla": "XAF",
+"pais": "Costa do Marfim"
+},
+{
+"sigla": "XAF",
+"pais": "Guiné Equatorial"
+},
+{
+"sigla": "XAF",
+"pais": "Gabão"
+},
+{
+"sigla": "XAF",
+"pais": "Guiné-Bissau"
+},
+{
+"sigla": "XAF",
+"pais": "Mali"
+},
+{
+"sigla": "XAF",
+"pais": "Níger"
+},
+{
+"sigla": "XAF",
+"pais": "Senegal"
+},
+{
+"sigla": "XAF",
+"pais": "Togo"
+},
+{
+"sigla": "XCD",
+"pais": "Anguilla"
+},
+{
+"sigla": "XCD",
+"pais": "Antigua and Barbuda"
+},
+{
+"sigla": "XCD",
+"pais": "Dominica"
+},
+{
+"sigla": "XCD",
+"pais": "Granada"
+},
+{
+"sigla": "XCD",
+"pais": "Montserrat"
+},
+{
+"sigla": "XCD",
+"pais": "São Cristóvão e Nevis"
+},
+{
+"sigla": "XCD",
+"pais": "Santa Lúcia"
+},
+{
+"sigla": "XCD",
+"pais": "São Vicente e Granadinas"
+},
+{
+"sigla": "XPF",
+"pais": "Polinésia Francesa"
+},
+{
+"sigla": "XPF",
+"pais": "Nova Caledônia"
+},
+{
+"sigla": "XPF",
+"pais": "Wallis e Futuna"
+},
+{
+"sigla": "YER",
+"pais": "Iémen"
+},
+{
+"sigla": "ZAR",
+"pais": "Lesoto"
+},
+{
+"sigla": "ZAR",
+"pais": "Namíbia"
+},
+{
+"sigla": "ZAR",
+"pais": "África do Sul"
+},
+{
+"sigla": "ZMW",
+"pais": "Zâmbia"
+},
+{
+"sigla": "ZWL",
+"pais": "Zimbábue"
+}
+]

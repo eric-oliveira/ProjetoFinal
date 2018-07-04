@@ -1,0 +1,605 @@
+[{
+	"sigla": "AED",
+	"moeda": "Dirham dos Emirados Árabes Unidos"
+},
+{
+	"sigla": "AFN",
+	"moeda": "Afegão"
+},
+{
+	"sigla": "ALL",
+	"moeda": "Lek Albanian"
+},
+{
+	"sigla": "AMD",
+	"moeda": "Dracma Armênio"
+},
+{
+	"sigla": "AOA",
+	"moeda": "Kwanza"
+},
+{
+	"sigla": "ARS",
+	"moeda": "Peso Argentino"
+},
+{
+	"sigla": "AUD",
+	"moeda": "Dólar Australiano"
+},
+{
+	"sigla": "AWG",
+	"moeda": "Florin de Aruba"
+},
+{
+	"sigla": "AZN",
+	"moeda": "Manat do Azerbaijão"
+},
+{
+	"sigla": "BAM",
+	"moeda": "Konvertibilna Marka"
+},
+{
+	"sigla": "BBD",
+	"moeda": "Dólar de Barbados"
+},
+{
+	"sigla": "BDT",
+	"moeda": "Taka"
+},
+{
+	"sigla": "BGN",
+	"moeda": "Lev Búlgaro"
+},
+{
+	"sigla": "BHD",
+	"moeda": "Dinar do Bahrain"
+},
+{
+	"sigla": "BIF",
+	"moeda": "Franco de Burundi"
+},
+{
+	"sigla": "BMD",
+	"moeda": "Dólar das Bermudas"
+},
+{
+	"sigla": "BND",
+	"moeda": "Dólar de Brunei"
+},
+{
+	"sigla": "BOB",
+	"moeda": "Boliviano"
+},
+{
+	"sigla": "BRL",
+	"moeda": "Real"
+},
+{
+	"sigla": "BSD",
+	"moeda": "Dólar das Bahamas"
+},
+{
+	"sigla": "BTN",
+	"moeda": "Ngultrum"
+},
+{
+	"sigla": "BWP",
+	"moeda": "Pula"
+},
+{
+	"sigla": "BYR",
+	"moeda": "Rublo Bielorrusso"
+},
+{
+	"sigla": "BZD",
+	"moeda": "Dólar de Belize"
+},
+{
+	"sigla": "CAD",
+	"moeda": "Dólar Canadense"
+},
+{
+	"sigla": "CDF",
+	"moeda": "Franco Congolês"
+},
+{
+	"sigla": "CHF",
+	"moeda": "Franco Suiço"
+},
+{
+	"sigla": "CLP",
+	"moeda": "Peso Chileno"
+},
+{
+	"sigla": "CNY",
+	"moeda": "Yuan"
+},
+{
+	"sigla": "COP",
+	"moeda": "Peso Colombiano"
+},
+{
+	"sigla": "CRC",
+	"moeda": "Colon Costariquenho"
+},
+{
+	"sigla": "CUP",
+	"moeda": "Peso Cubano"
+},
+{
+	"sigla": "CVE",
+	"moeda": "Escudo de Cabo Verde"
+},
+{
+	"sigla": "CZK",
+	"moeda": "Coroa Tcheca"
+},
+{
+	"sigla": "DJF",
+	"moeda": "Franco de Djibouti"
+},
+{
+	"sigla": "DKK",
+	"moeda": "Coroa Dinamarquesa"
+},
+{
+	"sigla": "DOP",
+	"moeda": "Peso Dominicano"
+},
+{
+	"sigla": "DZD",
+	"moeda": "Dinar Argelino"
+},
+{
+	"sigla": "EGP",
+	"moeda": "Libra Egípcia"
+},
+{
+	"sigla": "ERN",
+	"moeda": "Nakfa"
+},
+{
+	"sigla": "ETB",
+	"moeda": "Birr Etíope"
+},
+{
+	"sigla": "EUR",
+	"moeda": "Euro"
+},
+{
+	"sigla": "FJD",
+	"moeda": "Dólar de Fiji"
+},
+{
+	"sigla": "FKP",
+	"moeda": "Libra das Ilhas Falkland"
+},
+{
+	"sigla": "GBP",
+	"moeda": "Libra Esterlina"
+},
+{
+	"sigla": "GEL",
+	"moeda": "Lari"
+},
+{
+	"sigla": "GHS",
+	"moeda": "Cedi"
+},
+{
+	"sigla": "GIP",
+	"moeda": "Libra de Gibraltar"
+},
+{
+	"sigla": "GMD",
+	"moeda": "Dalasi"
+},
+{
+	"sigla": "GNF",
+	"moeda": "Franco de Guiné"
+},
+{
+	"sigla": "GTQ",
+	"moeda": "Quetzal"
+},
+{
+	"sigla": "GYD",
+	"moeda": "Dólar da Guiana"
+},
+{
+	"sigla": "HKD",
+	"moeda": "Dólar de Hong Kong"
+},
+{
+	"sigla": "HNL",
+	"moeda": "Lempira"
+},
+{
+	"sigla": "HRK",
+	"moeda": "Kuna Croata"
+},
+{
+	"sigla": "HTG",
+	"moeda": "Gourde"
+},
+{
+	"sigla": "HUF",
+	"moeda": "Forint"
+},
+{
+	"sigla": "IDR",
+	"moeda": "Rupia"
+},
+{
+	"sigla": "ILS",
+	"moeda": "Novo Shekel Israelense"
+},
+{
+	"sigla": "INR",
+	"moeda": "Rupia Indiana"
+},
+{
+	"sigla": "IQD",
+	"moeda": "Dinar Iraquiano"
+},
+{
+	"sigla": "IRR",
+	"moeda": "Rial Iraniano"
+},
+{
+	"sigla": "ISK",
+	"moeda": "Coroa Islandesa"
+},
+{
+	"sigla": "JMD",
+	"moeda": "Dólar Jamaicano"
+},
+{
+	"sigla": "JOD",
+	"moeda": "Dinar Jordaniano"
+},
+{
+	"sigla": "JPY",
+	"moeda": "Yen"
+},
+{
+	"sigla": "KES",
+	"moeda": "Shilling Queniano"
+},
+{
+	"sigla": "KGS",
+	"moeda": "Som"
+},
+{
+	"sigla": "KHR",
+	"moeda": "Riel"
+},
+{
+	"sigla": "KPW",
+	"moeda": "Won Norte-Coreano"
+},
+{
+	"sigla": "KRW",
+	"moeda": "Won Sul-Coreano"
+},
+{
+	"sigla": "KWD",
+	"moeda": "Dinar do Kuwait"
+},
+{
+	"sigla": "KYD",
+	"moeda": "Dólar das Ilhas Cayman"
+},
+{
+	"sigla": "KZT",
+	"moeda": "Tenge"
+},
+{
+	"sigla": "LAK",
+	"moeda": "Kip"
+},
+{
+	"sigla": "LBP",
+	"moeda": "Libra Libanesa"
+},
+{
+	"sigla": "LKR",
+	"moeda": "Rupia do Sri Lanka"
+},
+{
+	"sigla": "LRD",
+	"moeda": "Dólar Liberiano"
+},
+{
+	"sigla": "LSL",
+	"moeda": "Loti"
+},
+{
+	"sigla": "LYD",
+	"moeda": "Dinar da Líbia"
+},
+{
+	"sigla": "MAD",
+	"moeda": "Dirham Marroquino"
+},
+{
+	"sigla": "MDL",
+	"moeda": "Leu Moldavo"
+},
+{
+	"sigla": "MGA",
+	"moeda": "Ariary Malgaxe"
+},
+{
+	"sigla": "MKD",
+	"moeda": "Denar"
+},
+{
+	"sigla": "MMK",
+	"moeda": "Kyat"
+},
+{
+	"sigla": "MNT",
+	"moeda": "Tugrik"
+},
+{
+	"sigla": "MOP",
+	"moeda": "Pataca"
+},
+{
+	"sigla": "MRO",
+	"moeda": "Ouguiya"
+},
+{
+	"sigla": "MUR",
+	"moeda": "Rupia de Maurício"
+},
+{
+	"sigla": "MVR",
+	"moeda": "Rufiyaa"
+},
+{
+	"sigla": "MWK",
+	"moeda": "Kwacha"
+},
+{
+	"sigla": "MXN",
+	"moeda": "Peso Mexicano"
+},
+{
+	"sigla": "MYR",
+	"moeda": "Ringgit Malaio"
+},
+{
+	"sigla": "MZN",
+	"moeda": "Metical"
+},
+{
+	"sigla": "NAD",
+	"moeda": "Dólar da Namíbia"
+},
+{
+	"sigla": "NGN",
+	"moeda": "Naira"
+},
+{
+	"sigla": "NIO",
+	"moeda": "Oro de Cordoba"
+},
+{
+	"sigla": "NOK",
+	"moeda": "Coroa Norueguesa"
+},
+{
+	"sigla": "NPR",
+	"moeda": "Rupia Nepalesa"
+},
+{
+	"sigla": "NZD",
+	"moeda": "Dólar Neozelandês"
+},
+{
+	"sigla": "OMR",
+	"moeda": "Rial Omani"
+},
+{
+	"sigla": "PAB",
+	"moeda": "Balboa"
+},
+{
+	"sigla": "PEN",
+	"moeda": "Novo Sol"
+},
+{
+	"sigla": "PGK",
+	"moeda": "Kina"
+},
+{
+	"sigla": "PHP",
+	"moeda": "Peso Filipinio"
+},
+{
+	"sigla": "PKR",
+	"moeda": "Rupia Paquistanesa"
+},
+{
+	"sigla": "PLN",
+	"moeda": "PZloty"
+},
+{
+	"sigla": "PYG",
+	"moeda": "Guarani"
+},
+{
+	"sigla": "QAR",
+	"moeda": "Qatari Rial"
+},
+{
+	"sigla": "RON",
+	"moeda": "Leu"
+},
+{
+	"sigla": "RSD",
+	"moeda": "Dinar Sérvio"
+},
+{
+	"sigla": "RUB",
+	"moeda": "Rublo Russo"
+},
+{
+	"sigla": "RWF",
+	"moeda": "Franco de Ruanda"
+},
+{
+	"sigla": "SAR",
+	"moeda": "Riyal Saudita"
+},
+{
+	"sigla": "SBD",
+	"moeda": "Dólar das Ilhas Salomão"
+},
+{
+	"sigla": "SCR",
+	"moeda": "Rúpia do Seicheles"
+},
+{
+	"sigla": "SDG",
+	"moeda": "Libra Sudanesa"
+},
+{
+	"sigla": "SEK",
+	"moeda": "Coroa Sueca"
+},
+{
+	"sigla": "SGD",
+	"moeda": "Dólar de Cingapura"
+},
+{
+	"sigla": "SHP",
+	"moeda": "Libra de Santa Helena"
+},
+{
+	"sigla": "SLL",
+	"moeda": "Leone"
+},
+{
+	"sigla": "SOS",
+	"moeda": "Shilling Somali"
+},
+{
+	"sigla": "SRD",
+	"moeda": "Dólar do Suriname"
+},
+{
+	"sigla": "STD",
+	"moeda": "Dobra"
+},
+{
+	"sigla": "SYP",
+	"moeda": "Libra Síria"
+},
+{
+	"sigla": "SZL",
+	"moeda": "Lilangeni"
+},
+{
+	"sigla": "THB",
+	"moeda": "Baht"
+},
+{
+	"sigla": "TJS",
+	"moeda": "Somoni"
+},
+{
+	"sigla": "TMT",
+	"moeda": "Manat"
+},
+{
+	"sigla": "TND",
+	"moeda": "Dinar Tunisiano"
+},
+{
+	"sigla": "TOP",
+	"moeda": "Pa’anga"
+},
+{
+	"sigla": "TRY",
+	"moeda": "Lira Turca"
+},
+{
+	"sigla": "TTD",
+	"moeda": "Dólar de Trinidad e Tobago"
+},
+{
+	"sigla": "TWD",
+	"moeda": "Dólar de Taiwan"
+},
+{
+	"sigla": "TZS",
+	"moeda": "Shilling da Tanzânia"
+},
+{
+	"sigla": "UAH",
+	"moeda": "Hryvnia"
+},
+{
+	"sigla": "UGX",
+	"moeda": "Shilling de Uganda"
+},
+{
+	"sigla": "USD",
+	"moeda": "Dólar Norte-Americano"
+},
+{
+	"sigla": "UYU",
+	"moeda": "Peso Uruguaio"
+},
+{
+	"sigla": "UZS",
+	"moeda": "Sum Uzbequistão"
+},
+{
+	"sigla": "VEF",
+	"moeda": "Bolivar Venezuelano"
+},
+{
+	"sigla": "VND",
+	"moeda": "Dong"
+},
+{
+	"sigla": "VUV",
+	"moeda": "Vatu"
+},
+{
+	"sigla": "WST",
+	"moeda": "Tala"
+},
+{
+	"sigla": "XAF",
+	"moeda": "Franco CFA BCEAO"
+},
+{
+	"sigla": "XCD",
+	"moeda": "Dólar do Caribe Oriental"
+},
+{
+	"sigla": "XPF",
+	"moeda": "Franco CFP"
+},
+{
+	"sigla": "YER",
+	"moeda": "Rial Iemnita"
+},
+{
+	"sigla": "ZAR",
+	"moeda": "Rand"
+},
+{
+	"sigla": "ZMW",
+	"moeda": "Kwacha Zambiano"
+},
+{
+	"sigla": "ZWL",
+	"moeda": "Dólar do Zimbábue"
+}
+]
