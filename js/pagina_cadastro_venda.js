@@ -3,7 +3,7 @@ $(document).ready(function (){
     	$("#cotacao").empty();
     	$.ajax({
         type: "GET", 
-        url: "http://projetolkz.com.br/cotacao/USD;EUR",
+        url: "http://projetolkz.com.br/cotacao/USD",
         dataType: "json",
         cache: false,
         success: function(data) {
