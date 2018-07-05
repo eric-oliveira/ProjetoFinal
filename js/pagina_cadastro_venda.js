@@ -1,19 +1,27 @@
 $(document).ready(function () {
-    // URL com a Query do YQL
-    var url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.xchange%20where%20pair%3D%22USDBRL%22&format=json&diagnostics=false&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys";
+    endpoint = 'latest'
+    access_key = '44692921a9c2d600bc19c3bc0138538e';
+
+    from = 'BRL';
+    to = 'USD';
+    amount = '10';
+
     $('#valor').change(function(){
-        // Obtem e trata os dados em JSON
-        $.getJSON( url, function( data ) {
+        // get the most recent exchange rates via the "latest" endpoint:
+        $.ajax({
+            url: 'http://data.fixer.io/api/' + endpoint + '?access_key=' + access_key,   
+            dataType: 'jsonp',
+            success: function(json) {
 
-            // Agrupa os dados em HTML
-            try {
-            var indices = data.query.results.rate[0].Rate;
-            } catch(err) {
-            var indices = err.message;
+                // exchange rata data is stored in json.rates
+                console.log(json.rates[from]);
+                
+                // base currency is stored in json.base
+                console.log(json.base);
+                
+                // timestamp can be accessed in json.timestamp
+                console.log(json.timestamp);
             }
-
-            // Mostra a cotação do dolar na tag <div id="info"></div>
-            console.log(indices);
         });
-    })
+    });
 });

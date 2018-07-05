@@ -17,6 +17,11 @@
     <?php
         include_once("./include_menu.php");
         require_once("../dao/ClienteDAO.php");
+        require_once("../dao/EmpresaDAO.php");
+        require_once("../model/Empresa.php");
+        $sessao = Sessao::getInstance();
+        $conteudo = $sessao->recuperar('AUTENTICACAO');
+        $idEmpresa = $conteudo->getIdEmpresa();
     ?>
 
     <divc class="container-fluid">
@@ -31,11 +36,14 @@
                             <div class="col">
                                 <form action="../controller/pagina_cadastrar_venda.php" method="post">
                                     <div class="form-group">
+                                        <?php
+                                            $retorno = EmpresaDAO::buscarPorId($idEmpresa);
+                                        ?>
+                                        <input type="text" class="form-control" <?php echo ("id='".$retorno->getMoeda()."'");?>>
+                                    </div>
+                                    <div class="form-group">
                                         <select type="text" id="id_cliente" name="id_cliente" class="form-control">
                                         	<?php
-                                        		$sessao = Sessao::getInstance();
-                                        		$conteudo = $sessao->recuperar('AUTENTICACAO');
-                                        		$idEmpresa = $conteudo->getIdEmpresa();
                                         		$retornoLista = ClienteDAO::buscarListaCliente($idEmpresa);
                                         		foreach ($retornoLista as $cliente) {
                                         	       echo ("<option value = '".$cliente->getId()."'>".$cliente->getNome()."</option>");
