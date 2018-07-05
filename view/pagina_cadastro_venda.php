@@ -35,11 +35,11 @@
                         <div class="row">
                             <div class="col">
                                 <form action="../controller/pagina_cadastrar_venda.php" method="post">
-                                    <div class="form-group">
+                                    <div class="form-group d-none">
                                         <?php
                                             $retorno = EmpresaDAO::buscarPorId($idEmpresa);
                                         ?>
-                                        <input type="text" class="form-control" <?php echo ("id='".$retorno->getMoeda()."'");?>>
+                                        <input type="text" class="form-control" id="moedaEmpresa" <?php echo ("value='".$retorno->getMoeda()."'");?>>
                                     </div>
                                     <div class="form-group">
                                         <select type="text" id="id_cliente" name="id_cliente" class="form-control">
