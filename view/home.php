@@ -32,39 +32,34 @@
               if($retorno->getPerfil() == 1){
               ?>
                 <div class="row">
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
                   <span><a class="navbar-brand" href="./pagina_empresas.php">EMPRESA</a></span>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
                   <span><a class="navbar-brand" href="./pagina_cadastro_empresa.php">CADASTRAR EMPRESA</a></span>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <span><a class="navbar-brand" href="./pagina_pesquisar_empresa.php">PESQUISAR EMPRESA</a></span>
+              </div>
+              <?php
+              }
+              if ($retorno->getPerfil() == 2) {
+              ?>
+              <div class="row">
+                <div class="col-6 d-flex justify-content-center">
+                  <span><a class="navbar-brand" href="./pagina_clientes.php">CLIENTE</a></span>
                 </div>
+                <div class="col-6 d-flex justify-content-center">
+                  <span><a class="navbar-brand" href="./pagina_cadastro_cliente.php">CADASTRAR CLIENTE</a></span>
+                </div>
+              </div>
               <?php
               }
               ?>
-              </div>
               <div class="row">
-                <div class="col-4 d-flex justify-content-center">
-                  <span><a class="navbar-brand" href="./pagina_clientes.php">CLIENTE</a></span>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <span><a class="navbar-brand" href="./pagina_cadastro_cliente.php">CADASTRAR CLIENTE</a></span>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <span><a class="navbar-brand" href="./pagina_pesquisar_cliente.php">PESQUISAR CLIENTE</a></span>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
                   <span><a class="navbar-brand" href="./pagina_vendas.php">VENDAS</a></span>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
                   <span><a class="navbar-brand" href="./pagina_cadastro_venda.php">CADASTRAR VENDA</a></span>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                  <span><a class="navbar-brand" href="./pagina_pesquisar_venda.php">PESQUISAR VENDA</a></span>
                 </div>
               </div>
             </div>

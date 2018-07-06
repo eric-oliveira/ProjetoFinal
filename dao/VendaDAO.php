@@ -50,6 +50,42 @@ class VendaDAO{
         return $result;
     }
 
+    public static function buscarTodosJoinId($id){
+        $provider = new MySqliProvider();
+        $mysqli = $provider->provide();
+        $stmt = $mysqli->prepare('SELECT v.id, e.razaosocial, c.nome, DATE_FORMAT(v.data, "%d/%m/%Y"), v.valor, v.dolar
+                                  FROM vendas AS v
+                                  JOIN empresas AS e ON e.id = v.id_empresa
+                                  JOIN clientes AS c ON c.id = v.id_cliente
+                                  WHERE v.id_empresa = ?');
+        $stmt->bind_param('i', $id);
+        $stmt->execute();
+        $stmt->bind_result($id, $razaoSocial, $cliente, $data, $valor, $dolar);
+        $result= array();
+        while ($stmt->fetch()){
+            $venda = new Venda($id, $razaoSocial, $cliente, $data, $valor, $dolar);
+            $result[] = $venda;
+        }
+        return $result;
+    }
+    public static function buscarTodosJoinTotais(){
+        $provider = new MySqliProvider();
+        $mysqli = $provider->provide();
+        $stmt = $mysqli->prepare('SELECT e.razaosocial, SUM(v.valor), SUM(v.dolar)
+                                  FROM vendas AS v
+                                  JOIN empresas AS e ON e.id = v.id_empresa
+                                  JOIN clientes AS c ON c.id = v.id_cliente
+                                  GROUP BY e.razaosocial');
+        $stmt->execute();
+        $stmt->bind_result($razaoSocial, $valor, $dolar);
+        $result= array();
+        while ($stmt->fetch()){
+            $venda = new Venda($razaoSocial, $dolar);
+            $result[] = $venda;
+        }
+        return $result;
+    }
+
     public static function buscarPorId($id){
         $provider = new MySqliProvider();
         $mysqli= $provider->provide();

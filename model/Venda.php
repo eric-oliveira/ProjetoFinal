@@ -24,6 +24,10 @@
 		        $this->valor = $args[3];
 		        $this->dolar = $args[4]; 
 	        }
+	        if (func_num_args() == 2) {
+	        	$this->idEmpresa = $args[0];
+	        	$this->dolar = $args[1];
+	        }
         }
 
         public function getId(){
