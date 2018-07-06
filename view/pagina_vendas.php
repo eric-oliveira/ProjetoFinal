@@ -17,6 +17,7 @@
     <?php
         include_once("./include_menu.php");
         require_once("../dao/VendaDAO.php");
+        require_once("../dao/EmpresaDAO.php")
     ?>
 
     <div class="container">
@@ -30,12 +31,15 @@
                         <?php
                             $vendas = VendaDAO::buscarTodosJoin();
                             $retorno = Sessao::getInstance()->recuperar("AUTENTICACAO");
+                            $empresa = EmpresaDAO::buscarPorId($retorno->getIdEmpresa());
                             if (isset($vendas)){
                                 foreach ($vendas as $venda) {
                                     if($retorno->getPerfil() == 2){
-                                        if($retorno->getIdEmpresa() != $venda->getId()){
+                                        if($empresa->getRazaoSocial() != $venda->getIdEmpresa()){
                                             continue;
                                         }
+                                    }else{
+
                                     }
                         ?>
                                     <div class="card mb-3 bg-light">
