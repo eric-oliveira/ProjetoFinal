@@ -2,20 +2,22 @@
 
     require_once("../dao/VendaDAO.php");
     require_once("../model/Sessao.php");
+    require_once("../model/Autenticacao.php");
 
-    if (isset($_POST["id_cliente"]) && isset($_POST["data"]) && isset($_POST["valor"]) && isset($_POST["cotacao"])){
+    if (isset($_POST["id-cliente"]) && isset($_POST["data"]) && isset($_POST["valor"]) && isset($_POST["conversao"])){
         $sessao = Sessao::getInstance();
-        $idEmpresa = $sessao->recuperar()->getAutenticacao()->getPermissoes();
-        $idCliente = $_POST["id_cliente"];
+        $conteudo = $sessao->recuperar('AUTENTICACAO');
+        $idEmpresa = $conteudo->getIdEmpresa();
+        $idCliente = $_POST["id-cliente"];
         $data = $_POST["data"];
         $valor = $_POST["valor"];
-        $cotacao = $_POST["cotacao"];
+        $cotacao = $_POST["conversao"];
 
         $v = new Venda($idEmpresa, $idCliente, $data, $valor, $cotacao);
 
-        $rep = new VendaDAO();
-        $rep->adicionar($v);
-        
+        VendaDAO::insere($v);
         header('Location: ../view/pagina_vendas.php');
+    }else{
+        echo "entra aqui";
     }
 ?>

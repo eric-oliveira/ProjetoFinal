@@ -42,7 +42,7 @@
                                         <input type="text" class="form-control" id="moedaEmpresa" <?php echo ("value='".$retorno->getMoeda()."'");?>>
                                     </div>
                                     <div class="form-group">
-                                        <select type="text" id="id_cliente" name="id_cliente" class="form-control">
+                                        <select type="text" id="id-cliente" name="id-cliente" class="form-control">
                                         	<?php
                                         		$retornoLista = ClienteDAO::buscarListaCliente($idEmpresa);
                                         		foreach ($retornoLista as $cliente) {
@@ -58,8 +58,8 @@
                                         <input type="text" id="valor" name="valor" class="form-control" placeholder="Valor">
                                     </div>
                                     <div class="form-group">
-                                        <label>Dolar</label>
-                                        <input type="text" id="cotacao" name="cotacao" class="form-control" disabled="disabled">
+                                        <label>Valor em Dolar</label>
+                                        <input type="text" id="conversao" name="conversao" class="form-control">
                                     </div>
                                     <div class="row mt-5">
                                         <div class="col-6">

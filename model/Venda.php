@@ -7,13 +7,23 @@
         private $valor;
         private $dolar;
 
-        public function Venda($id, $idEmpresa, $idCliente, $data, $valor, $dolar){
-        	$this->id = $id;
-	        $this->idEmpresa = $idEmpresa;
-	        $this->idCliente = $idCliente;
-	        $this->data = $data;
-	        $this->valor = $valor;
-	        $this->dolar = $dolar;
+        public function Venda(){
+        	$args = func_get_args();
+        	if(func_num_args() == 6){
+	            $this->id = $args[0];
+		        $this->idEmpresa = $args[1];
+		        $this->idCliente = $args[2];
+		        $this->data = $args[3];
+		        $this->valor = $args[4];
+		        $this->dolar = $args[5];
+	        }
+	        if(func_num_args() == 5){
+		        $this->idEmpresa = $args[0];
+		        $this->idCliente = $args[1];
+		        $this->data = $args[2];
+		        $this->valor = $args[3];
+		        $this->dolar = $args[4]; 
+	        }
         }
 
         public function getId(){

@@ -20,6 +20,6 @@ $(document).ready(function () {
 
     $('#valor').change(function(){
         var cotacao = (cotacaoTo / cotacaoFrom) * $('#valor').val();
-        $('#cotacao').val(cotacao.toFixed(2));
+        $('#conversao').attr("value", cotacao.toFixed(2));
     });
 });

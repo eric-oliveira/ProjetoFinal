@@ -9,17 +9,13 @@ class VendaDAO{
         
     }
 
-    public function adicionar(Venda $venda)
-    {
+    public static function insere(Venda $venda){
         $provider = new MySqliProvider();
-
         $mysqli = $provider->provide();
-    
         $stmt = $mysqli->prepare('INSERT INTO vendas (id_empresa, id_cliente, data, valor, dolar) VALUES (?,?,?,?,?);');
-
-        $stmt->bind_param('sssss', $venda->getIdEmpresa(), $venda->getIdCliente(), $venda->getData(), $venda->getValor(), $venda->getDolar());
-    
+        $stmt->bind_param('sssdd', $venda->getIdEmpresa(), $venda->getIdCliente(), date("Y-m-d", strtotime($venda->getData())), $venda->getValor(), $venda->getDolar());
         $stmt->execute();
+        $venda->setId($mysqli->insert_id);
     }
 
     public function atualizar(Venda $venda)
