@@ -22,35 +22,7 @@ class EmpresaDAO{
         $empresa->setId($mysqli->insert_id);
     }
 
-    public function atualizar(Empresa $empresa)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('UPDATE produtos SET (numero_registro=?, descricao=?) WHERE id_produto=?;');
-        // $stmt->bind_param('ssi', $produto->numeroRegistro,$produto->descricao, $produto->id);
-    
-        // return $stmt->execute();    
-    }
-
-    public function remover( Empresa $empresa)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('DELETE FROM produto WHERE id_produto=?;');
-        
-        // $stmt->execute();
-        
-        // $stmt->bind_param('i', $produto->id);
-    
-        // return $stmt->execute();       
-    }
-
-    public function buscarTodos():Array
-    {
+    public static function buscarTodos():Array{
         $provider = new MySqliProvider();
     
         $mysqli= $provider->provide();
@@ -73,8 +45,7 @@ class EmpresaDAO{
 
         return $result;
     }
-    public function buscarPorId($id)
-    {
+    public static function buscarPorId($id){
         $provider = new MySqliProvider();
 
         $mysqli= $provider->provide();

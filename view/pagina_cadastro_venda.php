@@ -19,8 +19,7 @@
         require_once("../dao/ClienteDAO.php");
         require_once("../dao/EmpresaDAO.php");
         require_once("../model/Empresa.php");
-        $sessao = Sessao::getInstance();
-        $conteudo = $sessao->recuperar('AUTENTICACAO');
+        $conteudo = Sessao::getInstance()->recuperar("AUTENTICACAO");
         $idEmpresa = $conteudo->getIdEmpresa();
     ?>
 

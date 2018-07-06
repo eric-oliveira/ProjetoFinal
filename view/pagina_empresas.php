@@ -31,8 +31,7 @@
     				</div>
     				<div class="card-body">
     					<?php
-    						$rep = new EmpresaDAO();
-						    $empresas = $rep->buscarTodos();
+						    $empresas = EmpresaDAO::buscarTodos();
                             $retorno = Sessao::getInstance()->recuperar("AUTENTICACAO");
 						    if (isset($empresas)){
 						        foreach ($empresas as $empresa) {

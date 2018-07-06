@@ -10,8 +10,7 @@
     require_once("../model/Autenticacao.php");
 
     if (isset($_POST["nome"]) && isset($_POST["pais"])){
-        $sessao = Sessao::getInstance();
-        $conteudo = $sessao->recuperar("AUTENTICACAO");
+        $conteudo = Sessao::getInstance()->recuperar("AUTENTICACAO");
         $idEmpresa = $conteudo->getIdEmpresa();
         $nome = $_POST["nome"];
         $pais = $_POST["pais"];
