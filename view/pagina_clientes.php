@@ -20,6 +20,7 @@
         */
         include_once("./include_menu.php");
         require_once("../dao/ClienteDAO.php");
+        require_once("../dao/EmpresaDAO.php")
     ?>
 
     <div class="container">
@@ -31,13 +32,13 @@
                     </div>
                     <div class="card-body">
                         <?php
-                            $rep = new ClienteDAO();
-                            $clientes = $rep->buscarTodos();
+                            $clientes = ClienteDAO::buscarTodosJoin();
                             $retorno = Sessao::getInstance()->recuperar("AUTENTICACAO");
+                            $empresa = EmpresaDAO::buscarPorId($retorno->getIdEmpresa());
                             if (isset($clientes)){
                                 foreach ($clientes as $cliente) {
                                     if($retorno->getPerfil() == 2){
-                                        if($retorno->getIdEmpresa() != $cliente->getIdEmpresa()){
+                                        if($empresa->getRazaoSocial() != $cliente->getIdEmpresa()){
                                             continue;
                                         }
                                     }

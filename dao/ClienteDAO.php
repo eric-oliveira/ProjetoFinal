@@ -18,48 +18,15 @@ class ClienteDAO{
         $cliente->setId($mysqli->insert_id);
     }
 
-    public function atualizar(Cliente $cliente)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('UPDATE produtos SET (numero_registro=?, descricao=?) WHERE id_produto=?;');
-        // $stmt->bind_param('ssi', $produto->numeroRegistro,$produto->descricao, $produto->id);
-    
-        // return $stmt->execute();    
-    }
-
-    public function remover(Cliente $cliente)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('DELETE FROM produto WHERE id_produto=?;');
-        
-        // $stmt->execute();
-        
-        // $stmt->bind_param('i', $produto->id);
-    
-        // return $stmt->execute();       
-    }
-
-    public function buscarTodos():Array{
+    public static function buscarTodos():Array{
         $provider = new MySqliProvider();
-    
         $mysqli= $provider->provide();
-        
         $stmt = $mysqli->prepare('SELECT * 
                                   FROM clientes');
-
         $stmt->execute();
-
         /* bind result variables */
         $r = $stmt->bind_result($id, $idEmpresa, $nome, $pais);
-
         $result= array();
-
         while ($stmt->fetch()){
             $cliente = new Cliente($id, $idEmpresa, $nome, $pais);
             $result[] = $cliente;
@@ -77,9 +44,7 @@ class ClienteDAO{
         $stmt->execute();
         /* bind result variables */
         $r = $stmt->bind_result($id, $idEmpresa, $nome, $pais);
-
         $result= array();
-
         while ($stmt->fetch()){
             $cliente = new Cliente($id, $idEmpresa, $nome, $pais);
             $result[] = $cliente;
@@ -87,25 +52,35 @@ class ClienteDAO{
         return $result;
     }
 
-    public function buscarPorId($id)
-    {
+    public static function buscarPorId($id){
         $provider = new MySqliProvider();
-
         $mysqli= $provider->provide();
-    
         $stmt = $mysqli->prepare('SELECT id, id_empresa, nome, pais FROM clientes WHERE id=?;');
         $stmt->bind_param('i', $id);
-        
         $stmt->execute();
-
         /* bind result variables */
         $stmt->bind_result($id, $idEmpresa, $nome, $pais);
-        
-        if ($stmt->fetch())
-        {
+        if ($stmt->fetch()){
             return new Cliente($id, $idEmpresa, $nome, $pais);
         }
         return null;
+    }
+
+    public static function buscarTodosJoin(){
+        $provider = new MySqliProvider();
+        $mysqli= $provider->provide();
+        $stmt = $mysqli->prepare('SELECT c.id, e.razaosocial, c.nome, c.pais
+                                  FROM clientes AS c
+                                  JOIN empresas AS e ON e.id = c.id_empresa');
+        $stmt->execute();
+        /* bind result variables */
+        $r = $stmt->bind_result($id, $razaoSocial, $nome, $pais);
+        $result= array();
+        while ($stmt->fetch()){
+            $cliente = new Cliente($id, $razaoSocial, $nome, $pais);
+            $result[] = $cliente;
+        }
+        return $result;
     }
 }
 ?>
