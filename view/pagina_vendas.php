@@ -14,13 +14,9 @@
     </style>
 </head>
 <body>
-<?php
-        /* Página de interface com o usuário responsável por 
-        exibir todos os produtos:
-        */
+    <?php
         include_once("./include_menu.php");
         require_once("../dao/VendaDAO.php");
-
     ?>
 
     <div class="container">
@@ -53,12 +49,16 @@
                                 }
                             }
                         ?>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-right">Total: </span>
                         <div class="row mt-5">
                             <div class="col-12">
                                 <a class="btn btn-lg btn-warning btn-block" href="home.php">Voltar</a>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
