@@ -5,7 +5,7 @@ require_once("../config/mysqli_provider.class.php");
 class VendaDAO{
     private $empresas;
 
-    public function VendaDAO(){
+    public function __construct(){
         
     }
 
@@ -18,34 +18,7 @@ class VendaDAO{
         $venda->setId($mysqli->insert_id);
     }
 
-    public function atualizar(Venda $venda)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('UPDATE produtos SET (numero_registro=?, descricao=?) WHERE id_produto=?;');
-        // $stmt->bind_param('ssi', $produto->numeroRegistro,$produto->descricao, $produto->id);
-    
-        // return $stmt->execute();    
-    }
-
-    public function remover(Venda $venda)
-    {
-        // $provider = new MySqliProvider();
-
-        // $mysqli = $provider->provide();
-    
-        // $stmt = $mysqli->prepare('DELETE FROM produto WHERE id_produto=?;');
-        
-        // $stmt->execute();
-        
-        // $stmt->bind_param('i', $produto->id);
-    
-        // return $stmt->execute();       
-    }
-
-    public function buscarTodos():Array{
+    public static function buscarTodos():Array{
         $provider = new MySqliProvider();
         $mysqli= $provider->provide();
         $stmt = $mysqli->prepare('SELECT * FROM vendas');
@@ -60,22 +33,32 @@ class VendaDAO{
         return $result;
     }
 
-    public function buscarPorId($id)
-    {
+    public static function buscarTodosJoin(){
         $provider = new MySqliProvider();
+        $mysqli = $provider->provide();
+        $stmt = $mysqli->prepare('SELECT v.id, e.razaosocial, c.nome, DATE_FORMAT(v.data, "%d/%m/%Y"), v.valor, v.dolar
+                                  FROM vendas AS v
+                                  JOIN empresas AS e ON e.id = v.id_empresa
+                                  JOIN clientes AS c ON c.id = v.id_cliente');
+        $stmt->execute();
+        $stmt->bind_result($id, $razaoSocial, $cliente, $data, $valor, $dolar);
+        $result= array();
+        while ($stmt->fetch()){
+            $venda = new Venda($id, $razaoSocial, $cliente, $data, $valor, $dolar);
+            $result[] = $venda;
+        }
+        return $result;
+    }
 
+    public static function buscarPorId($id){
+        $provider = new MySqliProvider();
         $mysqli= $provider->provide();
-    
         $stmt = $mysqli->prepare('SELECT id, id_empresa, id_cliente, data, valor, dolar FROM vendas WHERE id=?;');
         $stmt->bind_param('i', $id);
-        
         $stmt->execute();
-
         /* bind result variables */
         $stmt->bind_result($id, $idEmpresa, $idCliente, $data, $valor, $dolar);
-        
-        if ($stmt->fetch())
-        {
+        if ($stmt->fetch()){
             return new Venda($id, $idEmpresa, $idCliente, $data, $valor, $dolar);
         }
         return null;

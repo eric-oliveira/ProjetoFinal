@@ -7,7 +7,7 @@
         private $valor;
         private $dolar;
 
-        public function Venda(){
+        public function __construct(){
         	$args = func_get_args();
         	if(func_num_args() == 6){
 	            $this->id = $args[0];

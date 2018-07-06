@@ -32,9 +32,9 @@
                     </div>
                     <div class="card-body">
                         <?php
-                            $rep = new VendaDAO();
-                            $vendas = $rep->buscarTodos();
+                            $vendas = VendaDAO::buscarTodosJoin();
                             $retorno = Sessao::getInstance()->recuperar("AUTENTICACAO");
+                            var_dump($vendas);
                             if (isset($vendas)){
                                 foreach ($vendas as $venda) {
                                     if($retorno->getPerfil() == 2){
